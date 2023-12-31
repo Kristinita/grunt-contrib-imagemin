@@ -1,6 +1,6 @@
 {
   "name": "grunt-contrib-imagemin",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Minify images",
   "license": "MIT",
   "repository": "gruntjs/grunt-contrib-imagemin",
@@ -9,7 +9,7 @@
     "url": "https://gruntjs.com/"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=21"
   },
   "scripts": {
     "ava": "ava",
@@ -32,11 +32,11 @@
     "svg"
   ],
   "dependencies": {
-    "chalk": "^2.4.1",
-    "imagemin": "^6.0.0",
-    "p-map": "^1.2.0",
-    "plur": "^3.0.1",
-    "pretty-bytes": "^5.1.0"
+    "chalk": "5.3.0",
+    "imagemin": "8.0.1",
+    "p-map": "7.0.1",
+    "plur": "5.1.0",
+    "pretty-bytes": "6.1.1"
   },
   "xo": {
     "rules": {
@@ -44,16 +44,16 @@
     }
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "del-cli": "^1.1.0",
-    "grunt": "^1.1.0",
-    "xo": "^0.23.0"
+    "ava": "6.0.1",
+    "del-cli": "5.1.0",
+    "grunt": "^1.6.1",
+    "xo": "0.56.0"
   },
   "optionalDependencies": {
-    "imagemin-gifsicle": "^6.0.1",
-    "imagemin-jpegtran": "^6.0.0",
-    "imagemin-optipng": "^6.0.0",
-    "imagemin-svgo": "^7.0.0"
+    "imagemin-gifsicle": "7.0.0",
+    "imagemin-jpegtran": "7.0.0",
+    "imagemin-optipng": "8.0.0",
+    "imagemin-svgo": "10.0.1"
   },
   "appveyor_id": "7w491e6edsuanreu"
 }
