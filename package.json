@@ -44,10 +44,11 @@
     }
   },
   "devDependencies": {
-    "ava": "6.0.1",
+    "ava": "6.1.1",
     "del-cli": "5.1.0",
     "grunt": "^1.6.1",
-    "xo": "0.56.0"
+    "imagemin-webp": "^8.0.0",
+    "xo": "0.57.0"
   },
   "optionalDependencies": {
     "imagemin-gifsicle": "7.0.0",
@@ -55,5 +56,6 @@
     "imagemin-optipng": "8.0.0",
     "imagemin-svgo": "10.0.1"
   },
+  "type": "module",
   "appveyor_id": "7w491e6edsuanreu"
 }

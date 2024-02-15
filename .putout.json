@@ -1,0 +1,8 @@
+{
+	"plugins": ["convert-commonjs-to-esm"],
+	"rules": {
+		"convert-commonjs-to-esm/require": "on",
+		"convert-commonjs-to-esm/exports": "on",
+		"convert-commonjs-to-esm/commons": "on"
+	}
+}
